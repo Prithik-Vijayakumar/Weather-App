@@ -37,7 +37,7 @@ Welcome to the Weather App! This project is a dynamic, visually appealing weathe
 
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/Prithik-Vijayakumar/Weather-App.git
    cd weather-app
 
 2. **Install Dependencies**:
