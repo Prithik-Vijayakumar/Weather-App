@@ -39,3 +39,10 @@ Welcome to the Weather App! This project is a dynamic, visually appealing weathe
    ```bash
    git clone https://github.com/your-username/weather-app.git
    cd weather-app
+
+2. **Install Dependencies**:
+   - For the frontend:
+   ```bash
+   cd client
+   npm install
+   
