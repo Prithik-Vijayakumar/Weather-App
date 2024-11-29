@@ -61,7 +61,7 @@ Welcome to the Weather App! This project is a dynamic, visually appealing weathe
      npm start
 
 4. **Access the App**:
-   Open your browser and navigate to http://localhost:3000.
+   Open your browser and navigate to http://localhost:8000.
 
 ## API Provider
 
