@@ -51,14 +51,14 @@ Welcome to the Weather App! This project is a dynamic, visually appealing weathe
      npm install
 
 3. **Run the Application**:
-  - Start the frontend:
-    ```bash
-    cd ui
-    npm start
-  - Start the backend
-    ```bash
-    cd api
-    npm start
+   - Start the frontend:
+     ```bash
+     cd ui
+     npm start
+   - Start the backend
+     ```bash
+     cd api
+     npm start
 
 4. **Access the App**:
    Open your browser and navigate to http://localhost:3000.
