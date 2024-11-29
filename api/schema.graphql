@@ -1,0 +1,38 @@
+type Weather {
+    name: String!
+    temperature: Float!
+    description: String!
+    icon: String!
+    feels: Float!
+    maxTemp: Float!
+    minTemp: Float!
+    wind: Float!
+    humidity: Int!
+    pressure: Int!
+    time: String!
+    date: String!
+}
+
+input WeatherInputs {
+    name: String!
+    temperature: Float!
+    description: String!
+    icon: String!
+    feels: Float!
+    maxTemp: Float!
+    minTemp: Float!
+    wind: Float!
+    humidity: Int!
+    pressure: Int!
+    time: String!
+    date: String!
+}
+
+
+type Query {
+    weatherDetail: [Weather!]!
+}
+
+type Mutation {
+    addWeather(weather: WeatherInputs!): Weather!
+}
