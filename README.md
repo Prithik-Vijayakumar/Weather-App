@@ -42,7 +42,64 @@ Welcome to the Weather App! This project is a dynamic, visually appealing weathe
 
 2. **Install Dependencies**:
    - For the frontend:
-   ```bash
-   cd client
-   npm install
+     ```bash
+     cd ui
+     npm install
+   - For the backend
+     ```bash
+     cd api
+     npm install
+
+3. **Run the Application**:
+   - Start the frontend:
+    ```bash
+    cd ui
+    npm start
+  - Start the backend
+    ```bash
+    cd api
+    npm start
+
+4. **Access the App**:
+   Open your browser and navigate to http://localhost:3000.
+
+## API Provider
+
+This app uses the OpenWeatherMap API to fetch weather data. Ensure you have an API key and add it to the backend environment configuration.
+
+## Usage
+
+1. Launch the application.
+2. Enter a city name in the input field and submit.
+3. View the current weather information with the dynamically changing background based on the time of day.
+
+## Animations
+
+- The sun and clouds animate seamlessly on the landing page, adding a lively visual element.
+- The transitions for backgrounds provide a smooth experience while reflecting the time of day.
+
+## Error Handling
+
+- **Displays user-friendly error messages for**:
+  - Invalid city names.
+  - API connection issues.
+  - Any unexpected issues during input processing.
+
+## Contributions
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+## Credits
+
+- **API**: OpenWeatherMap
+- **Development Tools**: AI-assisted coding, npm
+- **Technologies**: React, Node.js, Express.js, CSS
+
+## License
+
+This project is open-source and available under the MIT License.
+
+
+
+
    
