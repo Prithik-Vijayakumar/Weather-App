@@ -102,4 +102,3 @@ This project is open-source and available under the MIT License.
 ##
 
 Enjoy exploring the weather with this app!
-Save this file as **README.md** in your project directory. Let me know if there are more changes you'd like!
